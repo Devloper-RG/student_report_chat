@@ -1,0 +1,39 @@
+projects
+gits repo annd profile
+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
+openai= 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
+cohere= VEJratBxz8SOJmuSyyCvdy0JD931NPWOw26u9J8D
+
+integrate llm
+implement truelen
+try various retival technniques
+
+leads:
+1. try to use actual llm instance so that we could get answer relevence with groundedness
+2. add other relevance metrices to resultent df
+3. try different retival techniques from llama index
+4. reranking tech
+
+unstructured node parser
+
+5 elements of Rag:
+1. creatin the knowledgebase (embedding)
+2. ways of creating vectordb/retriver
+3. reranker with query + retrived top k context
+4. llm synthesizer (prompt syntesizer) - sys msg,query,context
+5. evaluation
+
+leads:
+check whether embeds complete node or node text
+
+
+tokenizer = T5tokenizer(model=" dfdfd")
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+
+- spearte file
+- note down 
+- fix the errors
+- pydantic
+quantization
